@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap"
+      rel="stylesheet"
+    /> -->
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Tic-tac-toe</title>
+
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!--  -->
+    <section class="section">
+      <!-- GAME -->
+
+      <div class="game">
+        <div class="information">
+          <div class="Statistics">
+            <td>
+              <tr>
+                <div class="button-statisticts active--player button--x">
+                  ✖️
+                  <p class="stat-x">-</p>
+                </div>
+              </tr>
+              <tr>
+                <div class="button-statisticts button--circle">
+                  ⭕
+                  <p class="stat-circle">-</p>
+                </div>
+              </tr>
+            </td>
+          </div>
+          <!-- <div class="currentPlayer"><p>Current player</p></div> -->
+        </div>
+        <!-- Statistics -->
+        <!-- Playground -->
+        <div class="playground--block">
+          <div class="winner hidden restart" data-restart>WINNER!</div>
+          <div class="playground">
+            <!-- <p>Playground is going to be here</p> -->
+
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+            <div class="cell" data-cell></div>
+          </div>
+        </div>
+
+        <div class="restart--button restart" data-restart>
+          <p>Restart game</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
